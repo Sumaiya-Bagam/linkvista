@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LinkVista – URL Preview Generator
 
-## Getting Started
+## What the Project Does
+LinkVista is a Next.js application where users can paste any website URL and generate a preview card.  
+The preview card displays the website’s title, description, Open Graph image, and favicon.
 
-First, run the development server:
+This works similar to how link previews appear in applications like Slack or Notion.
 
-```bash
+## Technologies Used
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
+- Microlink API
+
+## How to Run the Project Locally
+
+1. Download or clone the repository
+2. Open the project in VS Code
+3. Install dependencies using:
+
+npm install
+
+4. Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open the application in the browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to Test the Application
 
-## Learn More
+1. Enter any valid website URL in the input box.
+2. Click the "Preview" button.
+3. The app will fetch metadata from the Microlink API.
+4. A preview card will appear showing:
+   - Website title
+   - Description
+   - Open Graph image
+   - Favicon
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+Sumaiya Bagam
